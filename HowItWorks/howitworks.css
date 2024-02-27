@@ -1,0 +1,4 @@
+body {
+    image-orientation: from-image;
+    shape-image-threshold: inherit;
+}

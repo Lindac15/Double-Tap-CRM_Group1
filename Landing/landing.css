@@ -1,0 +1,681 @@
+* {
+    /* border: 1px solid red; */
+    font-family: system-ui;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-size: 4em;
+    margin-bottom: 0;
+    margin-top: 3%;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.logo {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;    
+    margin-bottom: 0.5%;
+    max-width: 80%;
+}
+
+.logopic {
+    max-width: 70%;
+}
+
+.home {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+    color: black;
+}
+
+.features {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+    color: black;
+}
+
+.pricing {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+.works {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+.support {
+    flex-grow: 1;
+    font-weight: 200;
+    font-size: 0.8em;
+}
+
+a {
+    text-decoration: none;
+}
+
+div>a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+div>a:link {
+    color: black;
+}
+
+.knopfen {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.anmelden {
+    margin-right: 5%;
+    padding: 5%;
+}
+
+#eintragen {
+    color: #0850F8;
+}
+
+.versuchen {
+    padding: 5%;
+    margin-right: 60px;
+    color: white;
+}
+
+.anmelden-1 {
+    padding: 10%;
+    width: 100%;
+    border: 2px solid #0850F8;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #0850F8;
+}
+
+.versuchen-1 {
+    padding: 10%;
+    width: 100%;
+    background-color: #0850F8; 
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.versuchen-2 {
+    color:white;
+}
+
+
+
+/* First of four content boxes --------------------------------------------------------------------------------------*/
+
+.eins {
+    display: flex;
+    height: 40em;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.focus {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 8%;
+}
+
+.nine {
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 4%;
+    flex-wrap: wrap;
+}
+
+.knopfs {
+    display: flex;
+    flex-direction: row;
+}
+
+.nineimg {
+    max-height: 100%;
+}
+
+.kendrick {
+    font-size: 1em;
+    color: gray;
+}
+
+.smithwesson {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.elbowroom {
+    max-height: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.upsign {
+    background-color: #0850F8;
+    border: 2px solid #0850F8;
+    font-size: 1.5em;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.icon {
+    width: 10px;
+}
+
+.chatter {
+    background-color: white;
+    border: 2px solid #0850F8;
+    font-size: 1.5em;
+    color: #0850F8;
+    padding: 15px 32px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.boldgray {
+    font-size: 1.3em;
+    color: gray;
+}
+
+b {
+    font-weight: 900;
+}
+
+.underline {
+    width: 60%;
+    margin-top: 5%;
+}
+
+.dot {
+    color: #0850F8 !important;
+}
+
+/* second content box ------------------------------------------------------------------------------------- */
+
+.zwei {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.starttextbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.starttext {
+    text-align: center;
+}
+
+.startexplore {
+    font-weight: 600;
+    font-size: 1.8em;
+    margin-bottom: 5%;
+}
+
+.exploretext {
+    margin-bottom: 5%;
+}
+
+.littleboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paymentsbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    background-color: #0850F8;
+    color: white;
+    border-radius: 10px;
+    width: 12.5%;
+}
+
+.paymentsicon {
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px #0850F8;
+    border-radius: 50px;
+
+}
+
+.paymentssize {
+    font-size: 2em;
+    margin: 5%;
+    color: black;
+    width: 48;
+    height: 48;
+    border-radius: 50%;
+
+}
+
+.dollaricon {
+    width: 48px;
+    margin: 0px;
+    height: 48px;
+    margin: 10px;
+
+}
+
+.paymentstext {
+    margin-top: 15%;
+    margin-bottom: 0%;
+}
+
+.retainbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    border-radius: 10px;
+    width: 12.5%;
+    border: 1px solid gray;
+    background-color: #fafafa;
+}
+
+.retaintext {
+    margin-top: 15%;
+    margin-bottom: 0%;
+}
+
+.reportingbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    border-radius: 10px;
+    width: 12.5%;
+    border: 1px solid gray;
+    background-color: #fafafa;
+}
+
+reportingtext {
+    margin-top: 15%;
+    margin-bottom: 0%;
+}
+
+.convertbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    border-radius: 10px;
+    width: 12.5%;
+    border: 1px solid gray;
+    background-color: #fafafa;
+}
+
+.converttext {
+    margin-top: 15%;
+    margin-bottom: 0%;
+}
+
+/* third content box ------------------------------------------------------------------------------------- */
+
+.drei {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.twotone {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.whitebox {
+    width: 40%;
+}
+
+.ccd {
+    width: 100%;
+}
+
+.ccdpic {
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.bluebox {
+    width: 60%;
+    background-color: #0850F8;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.blueboxtext {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 70%;
+}
+
+.accepting {
+    font-size: 1.8em;
+}
+
+.deliver {
+    font-weight: 500;
+    font-size:  0.9em;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    list-style-type: '-';
+    font-size: 0.7em;
+    font-weight: 200;
+    justify-content: flex-start;
+}
+
+li {
+    list-style-type: '-';
+    padding-bottom: 2%;
+}
+
+ul {
+    padding-left: 5px;
+}
+
+.studentin {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: #0850F8;
+    font-weight: 200;
+    color: white;
+    padding: 0px 20px 0px 20px;
+}
+
+.lehrerin {
+    padding: 10px;
+}
+
+/* fourth content box ------------------------------------------------------------------------------------- */
+
+.vier {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.middlecontent {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+}
+
+.solutionsbanner {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.griddle {
+    display: flex;
+    flex-direction: column;
+}
+
+.topgriddle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.gridsquare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.edashicon {
+    display: flex;
+    justify-content: center;
+}
+
+.gridimg {
+    max-width: 200px;
+}
+
+.gridheader {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+
+.gridtext {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-bottom: 3%;
+}
+
+.griddlebuttons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 200;
+    color: black;
+    padding: 0px 20px 0px 20px;
+    margin-left: 25%;
+}
+
+.fourpixel {
+    height: 2px;
+}
+
+.onepixel {
+    height: 2px;
+}
+
+.buttongriddle {
+    padding: 10px;
+}
+
+.bottomgriddle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+/* Footer ------------------------------------------------------------------------- */
+
+.footer{
+    background-color: #0850F8;
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+
+.footer h2{
+    font-size: 30px
+}
+
+.footer h3{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 800;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin-bottom: -10px;
+
+    
+    
+}
+
+
+.signup i{
+    color: white; 
+    /* margin-top: 5px; */
+    display: inline-block;
+}
+
+.footerchat i{
+    color: #0850F8; 
+    display: inline-block;
+}
+
+
+.chat1 {
+    padding: 10%;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: 3px solid #0850F8;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #0850F8;
+    text-align: center;
+}
+.signup1 {
+    padding: 10%;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: #0850F8; 
+    border: 3px solid #0850F8;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+
+}
+
+.signup1 a {
+    color: white;  
+}
+
+.chat1 a{
+    color: #0850F8;
+    font-weight: thick;
+}
+
+.footerbutton {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    
+}
+
+
+.fas{
+    color: white; 
+    /* margin-top: 5px; */
+    display: inline-block;
+}
+
+.far{
+    color: #0850F8; 
+    display: inline-block;
+}
+
+
+.footerchat1 {
+    padding: 10%;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: 3px solid #0850F8;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #0850F8;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.footersignup1 {
+    padding: 10%;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-color: lime;
+    border: 3px solid #0850F8;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.footersignup1 a {
+    color: white;  
+}
+
+.footerchat1 a{
+    color: #0850F8;
+    font-weight: thick;
+}
